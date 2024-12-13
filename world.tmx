@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="1">
- <tileset firstgid="1" source="C:/Users/Children/Downloads/Top_Down_Kingdom_Tileset_FREE/new_castle/Castle_1.tsx"/>
- <tileset firstgid="19" source="C:/Users/Children/Downloads/Top_Down_Kingdom_Tileset_FREE/new_castle/Bridges.tsx"/>
- <tileset firstgid="31" source="C:/Users/Children/Downloads/Top_Down_Kingdom_Tileset_FREE/new_castle/Garden.tsx"/>
- <tileset firstgid="35" source="C:/Users/Children/Downloads/Top_Down_Kingdom_Tileset_FREE/new_castle/Decor.tsx"/>
- <tileset firstgid="55" source="C:/Users/Children/Downloads/Top_Down_Kingdom_Tileset_FREE/new_castle/Grass.tsx"/>
- <tileset firstgid="91" source="C:/Users/Children/Downloads/Top_Down_Kingdom_Tileset_FREE/new_castle/Floor_1.tsx"/>
- <tileset firstgid="119" source="C:/Users/Children/Downloads/Top_Down_Kingdom_Tileset_FREE/new_castle/Villager.tsx"/>
- <tileset firstgid="122" source="C:/Users/Children/Downloads/Top_Down_Kingdom_Tileset_FREE/new_castle/Water.tsx"/>
- <tileset firstgid="140" source="C:/Users/Children/Downloads/Top_Down_Kingdom_Tileset_FREE/new_castle/Tree.tsx"/>
- <tileset firstgid="149" source="C:/Users/Children/Downloads/Top_Down_Kingdom_Tileset_FREE/new_castle/Road.tsx"/>
+ <tileset firstgid="1" source="new_castle/Castle_1.tsx"/>
+ <tileset firstgid="19" source="new_castle/Bridges.tsx"/>
+ <tileset firstgid="31" source="new_castle/Garden.tsx"/>
+ <tileset firstgid="35" source="new_castle/Decor.tsx"/>
+ <tileset firstgid="55" source="new_castle/Grass.tsx"/>
+ <tileset firstgid="91" source="new_castle/Floor_1.tsx"/>
+ <tileset firstgid="119" source="new_castle/Water.tsx"/>
+ <tileset firstgid="137" source="new_castle/Tree.tsx"/>
+ <tileset firstgid="146" source="new_castle/Road.tsx"/>
  <layer id="2" name="Wals" width="30" height="20" tintcolor="#bababa">
   <data encoding="csv">
 99,92,92,92,92,92,92,92,92,92,92,92,92,99,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -36,8 +35,8 @@
  </layer>
  <layer id="4" name="Carpets" width="30" height="20" tintcolor="#bababa">
   <data encoding="csv">
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,104,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,94,95,95,95,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,108,109,102,109,110,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,104,0,0,0,0,0,0,0,0,0,97,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,104,0,0,0,0,0,0,0,0,0,104,0,0,0,0,0,0,0,0,0,0,0,0,0,
 115,116,116,116,116,116,102,116,116,116,116,116,116,116,116,116,102,116,116,117,0,0,0,0,0,0,0,0,0,0,
@@ -92,9 +91,9 @@
 18,0,39,0,0,0,0,0,0,0,0,0,0,18,0,0,0,0,0,18,0,0,0,0,0,0,0,0,0,0,
 18,0,0,0,0,0,0,0,0,0,40,40,0,18,0,0,0,0,0,18,0,0,0,0,0,0,0,0,0,0,
 10,8,8,8,8,8,4,8,8,8,8,8,8,11,8,8,8,8,8,9,0,0,0,0,0,0,0,0,0,0,
-18,38,38,38,0,0,0,0,0,0,35,35,0,18,0,0,0,140,141,142,0,0,0,0,0,0,0,0,0,0,
-18,0,0,0,0,0,0,0,0,0,0,0,0,18,0,0,0,143,144,145,0,0,0,0,0,0,0,0,0,0,
-18,42,43,43,43,43,43,43,43,43,43,43,44,18,32,0,0,146,147,148,0,0,0,0,0,0,0,0,0,0,
+18,38,38,38,0,0,0,0,0,0,35,35,0,18,0,0,0,137,138,139,0,0,0,0,0,0,0,0,0,0,
+18,0,0,0,0,0,0,0,0,0,0,0,0,18,0,0,0,140,141,142,0,0,0,0,0,0,0,0,0,0,
+18,42,43,43,43,43,43,43,43,43,43,43,44,18,32,0,0,143,144,145,0,0,0,0,0,0,0,0,0,0,
 18,0,0,0,0,0,0,0,0,0,0,0,0,18,0,0,31,0,0,0,0,0,0,0,0,0,0,0,0,0,
 7,8,8,8,8,8,8,8,8,8,8,8,8,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
